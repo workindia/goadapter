@@ -1,4 +1,4 @@
-module github.com/workindia/wigoadapters
+module github.com/workindia/goadapter
 
 go 1.16
 

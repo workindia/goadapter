@@ -3,7 +3,7 @@ package pubsub
 import (
 	"testing"
 
-	"github.com/workindia/wigoadapters/pubsub"
+	"github.com/workindia/goadapter/pubsub"
 )
 
 type Person struct {

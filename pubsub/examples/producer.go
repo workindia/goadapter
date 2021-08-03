@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/workindia/wigoadapters/pubsub/producer"
+	"github.com/workindia/goadapter/pubsub/producer"
 )
 
 // Create a struct for your Producer. Add BaseProducer as its member.
