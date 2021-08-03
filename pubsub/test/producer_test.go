@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/workindia/wigoadapters/pubsub/producer"
+	"github.com/workindia/goadapter/pubsub/producer"
 )
 
 type SampleMessage struct {

@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/workindia/wigoadapters/pubsub"
+	"github.com/workindia/goadapter/pubsub"
 
 	"github.com/segmentio/kafka-go"
 )
