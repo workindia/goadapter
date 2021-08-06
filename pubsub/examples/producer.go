@@ -10,7 +10,7 @@ import (
 
 // Create a struct for your Producer. Add BaseProducer as its member.
 type SampleProducer struct {
-	Producer producer.BaseProducer
+	producer.BaseProducer
 }
 
 // Create a config for your Producer and Producer
@@ -28,7 +28,7 @@ func init() {
 	}
 	// update your Producer Config before here
 	SampleProducerObj = SampleProducer{
-		Producer: producer.BaseProducer{Config: SampleProducerConfig},
+		producer.BaseProducer{Config: SampleProducerConfig},
 	}
 }
 
@@ -48,7 +48,7 @@ func main() {
 		ProducerFees: 12.99,
 		ProducerData: nil,
 	}
-	err := producer.Produce(context.Background(), &SampleProducerObj.Producer, msg)
+	err := producer.Produce(context.Background(), &SampleProducerObj.BaseProducer, msg)
 	if err != nil {
 		fmt.Println(err.Error())
 	} else {
